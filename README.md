@@ -1,4 +1,4 @@
-# fasilva.cl — V3 bilingüe
+# fasilva.cl — V4 bilingüe
 
 Cambios principales:
 - Selector de idioma con 🇪🇸 ES y 🇬🇧 EN.
@@ -15,3 +15,9 @@ Cambios principales:
 
 ## Actualización en GitHub
 Subir `index.html`, `en.html`, `README.md` y la carpeta `assets` sobre los archivos actuales.
+
+
+## Cambios V4
+- Docencia reordenada: Doctorado → Magíster → Pregrado.
+- Vinculación reordenada: Director Tesis Magíster → Director Tesis Pregrado.
+- Se incorporaron las cinco tesis de Magíster MGO informadas por el autor para 2023–2025.
