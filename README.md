@@ -1,17 +1,17 @@
-# fasilva.cl — V2 bilingüe
+# fasilva.cl — V3 bilingüe
 
-## Archivos principales
-- `index.html`: español
-- `en.html`: inglés
-- `assets/css/style.css`: diseño
-- `assets/js/main.js`: menú, desplegables y publicaciones por año
-- `assets/img/fabian-silva-aravena.webp`: fotografía
+Cambios principales:
+- Selector de idioma con 🇪🇸 ES y 🇬🇧 EN.
+- Se eliminaron los íconos de Docencia, Vinculación, Investigación y Actividad.
+- Perfil actualizado: Ingeniero Comercial m/ Informática · MBA · Ph.D. in Systems Engineering.
+- Títulos con mayúscula inicial en palabras principales.
+- Docencia separada en Pregrado, Magíster y Doctorado.
+- Nombre corregido: Gestión de Empresas Basadas en Tecnología.
+- Vinculación separada en Director Tesis Pregrado y Director Tesis Magíster.
+- Publicaciones ampliadas por año, incluyendo registros 2026 diferenciados cuando aún están en proceso editorial.
+- Congresos y actividad científica ampliados y clasificados por rol.
+- Revisión por pares ORCID ampliada.
+- Botón: “Ver Todas las Publicaciones en Google Scholar”.
 
-## Actualizar en GitHub
-Reemplaza los archivos actuales por estos y realiza `Commit changes`. GitHub Pages volverá a publicar automáticamente.
-
-## Edición rápida
-- Contenido ES: `index.html`
-- Contenido EN: `en.html`
-- Colores y diseño: `assets/css/style.css`
-- Foto: sustituir el archivo de `assets/img/` manteniendo el mismo nombre
+## Actualización en GitHub
+Subir `index.html`, `en.html`, `README.md` y la carpeta `assets` sobre los archivos actuales.
