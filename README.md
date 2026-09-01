@@ -1,3 +1,3 @@
-# fasilva.cl — Versión 9
+# fasilva.cl — Versión 10
 
-Actualización de publicaciones 2025–2026 en español e inglés.
+Actualización de actividad editorial y enlaces de acceso a publicaciones 2019–2022. Versiones español e inglés incluidas.
