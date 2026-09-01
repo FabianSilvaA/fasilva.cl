@@ -62,3 +62,16 @@ footer{background:#041d33;color:#b8c8d8;padding:22px 0}.footer-inner{display:fle
 .media-link:hover{text-decoration:underline}
 @media(max-width:980px){.media-grid{grid-template-columns:repeat(2,1fr)}}
 @media(max-width:760px){.media-grid{grid-template-columns:1fr}}
+
+
+/* Version 6: year filters, richer academic record */
+.activity-toolbar{display:flex;flex-wrap:wrap;gap:10px;margin:22px 0}
+.activity-year-btn{border:1px solid var(--line);background:#fff;color:var(--navy);border-radius:999px;padding:8px 13px;font-weight:850;cursor:pointer}
+.activity-year-btn.active{background:var(--orange);border-color:var(--orange);color:#fff}
+.activity-year{display:none}.activity-year.active{display:block}
+.activity-full{padding-top:4px}.activity-support{margin-top:20px}
+.pub-head{display:flex;align-items:flex-start;justify-content:space-between;gap:14px}
+.status-badge{flex:0 0 auto;font-size:.72rem;font-weight:850;color:var(--navy);background:#edf4fb;border:1px solid var(--line);padding:4px 8px;border-radius:999px}
+.pub-link{display:inline-block;margin-left:8px;color:var(--blue);font-weight:800;text-decoration:none}.pub-link:hover{text-decoration:underline}
+.award-list{margin:0;padding-left:20px}.award-list li{margin:10px 0}
+@media(max-width:760px){.pub-head{display:block}.status-badge{display:inline-block;margin-top:7px}.activity-full{padding:16px}}
