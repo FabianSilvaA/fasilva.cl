@@ -21,3 +21,13 @@ Subir `index.html`, `en.html`, `README.md` y la carpeta `assets` sobre los archi
 - Docencia reordenada: Doctorado → Magíster → Pregrado.
 - Vinculación reordenada: Director Tesis Magíster → Director Tesis Pregrado.
 - Se incorporaron las cinco tesis de Magíster MGO informadas por el autor para 2023–2025.
+
+
+## Versión 5
+- Añade SciProfiles a los perfiles académicos del encabezado.
+- Reduce moderadamente el tamaño del nombre en el hero.
+- Corrige PRIMEDIA a PRIMED, manteniendo primedia.cl.
+- Renombra la sección de revisión como “Investigador Revisor en Journal”.
+- Completa ciudad y país en congresos y actividades presenciales.
+- Incorpora una sección de Prensa y Difusión con enlaces directos a notas y publicaciones institucionales (2024–2026).
+- Mantiene versión ES/EN y diseño responsive.
