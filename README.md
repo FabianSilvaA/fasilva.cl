@@ -1,4 +1,4 @@
-# fasilva.cl — V4 bilingüe
+# fasilva.cl
 
 Cambios principales:
 - Selector de idioma con 🇪🇸 ES y 🇬🇧 EN.
