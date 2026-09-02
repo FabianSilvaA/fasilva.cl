@@ -75,3 +75,10 @@ footer{background:#041d33;color:#b8c8d8;padding:22px 0}.footer-inner{display:fle
 .pub-link{display:inline-block;margin-left:8px;color:var(--blue);font-weight:800;text-decoration:none}.pub-link:hover{text-decoration:underline}
 .award-list{margin:0;padding-left:20px}.award-list li{margin:10px 0}
 @media(max-width:760px){.pub-head{display:block}.status-badge{display:inline-block;margin-top:7px}.activity-full{padding:16px}}
+
+/* Version 12: press coverage year filter */
+.press-toolbar{display:flex;flex-wrap:wrap;gap:10px;margin:22px 0}
+.press-year-btn{border:1px solid var(--line);background:#fff;color:var(--navy);border-radius:999px;padding:8px 13px;font-weight:850;cursor:pointer}
+.press-year-btn.active{background:var(--blue);border-color:var(--blue);color:#fff}
+.press-year{display:none}.press-year.active{display:block}
+.press-year-title{margin:0 0 16px;color:var(--navy);font-size:1.08rem}

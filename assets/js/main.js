@@ -24,3 +24,22 @@ document.getElementById('year').textContent=new Date().getFullYear();
   buttons.forEach(btn=>btn.addEventListener('click',()=>showYear(btn.getAttribute('data-activity-year'))));
   showYear(buttons.find(b=>b.classList.contains('active'))?.getAttribute('data-activity-year') || buttons[0].getAttribute('data-activity-year'));
 })();
+
+// Version 12 press coverage year filter
+(function(){
+  const buttons=[...document.querySelectorAll('.press-year-btn')];
+  const panels=[...document.querySelectorAll('.press-year')];
+  if(!buttons.length || !panels.length) return;
+
+  const showYear=(year)=>{
+    buttons.forEach(b=>b.classList.toggle('active', b.getAttribute('data-press-year')===year));
+    panels.forEach(p=>{
+      const isTarget=p.id==='press-'+year;
+      p.classList.toggle('active', isTarget);
+      p.style.display=isTarget?'block':'none';
+    });
+  };
+
+  buttons.forEach(btn=>btn.addEventListener('click',()=>showYear(btn.getAttribute('data-press-year'))));
+  showYear(buttons.find(b=>b.classList.contains('active'))?.getAttribute('data-press-year') || buttons[0].getAttribute('data-press-year'));
+})();
