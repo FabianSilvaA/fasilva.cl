@@ -1,7 +1,3 @@
-# fasilva.cl — Versión 13
+# fasilva.cl — Version 15
 
-Actualización de prensa y difusión:
-- Se mantienen los filtros por año 2026, 2025 y 2024.
-- Se incorporan cuatro nuevas notas de prensa de 2026: El Maule Informa, Diario Talca, Radio Maule Sur y UCM.
-- Actualización aplicada en español e inglés.
-- Recursos CSS/JS versionados como v=13.
+Bilingual release synchronized in Spanish and English. Includes 2024 Instagram press item, thesis and teaching corrections, differentiated methodological-capabilities profile card, simplified profile activity access, and info@fasilva.cl contact address.
