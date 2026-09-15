@@ -82,3 +82,6 @@ footer{background:#041d33;color:#b8c8d8;padding:22px 0}.footer-inner{display:fle
 .press-year-btn.active{background:var(--blue);border-color:var(--blue);color:#fff}
 .press-year{display:none}.press-year.active{display:block}
 .press-year-title{margin:0 0 16px;color:var(--navy);font-size:1.08rem}
+
+/* Version 16: month filters */
+.month-toolbar{display:flex;flex-wrap:wrap;align-items:center;gap:8px;margin:-8px 0 22px}.month-label{font-weight:850;color:var(--muted);margin-right:2px}.month-btn{border:1px solid var(--line);background:#fff;color:var(--navy);border-radius:999px;padding:7px 11px;font-weight:800;cursor:pointer}.month-btn.active{background:var(--navy);border-color:var(--navy);color:#fff}.month-toolbar:empty{display:none}
